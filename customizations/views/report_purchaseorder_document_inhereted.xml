@@ -116,12 +116,12 @@
                             <td class="text-center">
                                 <span t-field="line.date_planned"/>
                             </td>
-                            <td class="text-right">
+                            <td class="text-right w-25">
                                 <span t-field="line.product_qty" t-options="{&quot;widget&quot;: &quot;float&quot;, &quot;precision&quot;: 0}"/>
                                 <span t-field="line.product_uom.name" groups="uom.group_uom"/>
                             </td>
                             <td class="text-right">
-                                <span t-field="line.price_unit"/>
+                                <span t-field="line.price_unit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                             </td>
                             <td class="text-right">
                                 <span t-field="line.price_subtotal" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
