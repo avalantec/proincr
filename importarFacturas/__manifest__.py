@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Impotar Facturas",
+    'name': "Importar Facturas",
 
     'summary': """
         Módulo que permite importar los XMLs de las Facturas
