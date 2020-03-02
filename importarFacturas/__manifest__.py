@@ -3,15 +3,19 @@
     'name': "Impotar Facturas",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Módulo que permite importar los XMLs de las Facturas
+        Electronicas de Costa Rica e incluirlas en Odoo, junto
+        con la variacion de los decimales en el exchange rate,
+        para que la conversión sea más precisa.
+        """,
 
     'description': """
-        Long description of module's purpose
+        Importar los XMLs de las Facturas Electronicas de Costa Rica,
+        tal como si se hubieran generado desde Odoo directamente.
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Avalantec",
+    'website': "http://www.avalantec.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
